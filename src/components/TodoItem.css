@@ -1,0 +1,15 @@
+/*Styles below for "react-transition-group"*/
+.todo-enter-active {
+    opacity: 0;
+}
+.todo-enter-done {
+    opacity: 1;
+    transition: opacity 300ms ease-in;
+}
+.todo-exit {
+    opacity: 1;
+}
+.todo-exit-active {
+    opacity: 0;
+    transition: opacity 300ms ease-in;
+}

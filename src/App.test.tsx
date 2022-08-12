@@ -1,9 +1,16 @@
 import React from 'react';
-import { render, screen } from '@testing-library/react';
+import {screen} from '@testing-library/react';
+
+import {renderWithProviders} from "./test-utils";
+
 import App from './App';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+
+test('App render', () => {
+    renderWithProviders(<App/>, {})
+
+    const headingElement = screen.getByText("Todos App");
+
+    expect(headingElement).toBeInTheDocument();
 });
+

@@ -2,6 +2,17 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Clone repository and install dependencies
+
+```
+git clone https://github.com/manifet/ennage.git
+cd ennage
+```
+
+```
+npm install
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -39,8 +50,23 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+# About the app
+A simple to-do list app built primarily for learning and practicing a few technologies.\
+Here I used such technologies as:
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [React Testing Library](https://testing-library.com/)
+- [React Transition Group](https://reactcommunity.org/react-transition-group/)
+- [Redux Toolkit](https://redux-toolkit.js.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+## Interactivity in the application
+- Adding tasks
+- Deleting tasks
+- Completing tasks
+- Editing tasks (сlick on the title of the task)
+- Save all tasks to local storage
+<br/>
+<br/>
+### Application [link](https://todos-manifet.herokuapp.com/) (deployed by heroku)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### You can ask me a question [here](https://github.com/manifet/ennage/issues)
