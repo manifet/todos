@@ -5,8 +5,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Clone repository and install dependencies
 
 ```
-git clone https://github.com/manifet/ennage.git
-cd ennage
+git clone https://github.com/manifet/todos.git
+cd todos
 ```
 
 ```
