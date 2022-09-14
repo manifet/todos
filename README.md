@@ -60,8 +60,6 @@ Here I used such technologies as:
 - [React Transition Group](https://reactcommunity.org/react-transition-group/)
 - [Redux Toolkit](https://redux-toolkit.js.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
-## Preview
-![preview image](https://ibb.co/C14wfF8)
 ## Interactivity in the application
 - Adding tasks
 - Deleting tasks
