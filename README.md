@@ -61,7 +61,7 @@ Here I used such technologies as:
 - [Redux Toolkit](https://redux-toolkit.js.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 ## Preview
-![preview image](https://ibb.co/C14wfF8)
+![preview image](https://ibb.co/C14wfF8](https://ibb.co/C14wfF8)
 ## Interactivity in the application
 - Adding tasks
 - Deleting tasks
