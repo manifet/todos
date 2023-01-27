@@ -1,8 +1,13 @@
-# Getting Started with Create React App
+# Todo app
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Clone repository and install dependencies
+## Preview
+You can see the finished project [here](https://todos-manifet-a2579.web.app/)
+
+![Screenshot of website](https://user-images.githubusercontent.com/61707913/215187705-d6071193-19e3-4dbf-8d4b-eddf30252a49.png)
+## Getting Started
+### Clone repository and install dependencies
 
 ```
 git clone https://github.com/manifet/todos.git
@@ -13,7 +18,7 @@ cd todos
 npm install
 ```
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
@@ -49,24 +54,18 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Deployment
+Deployment of the application is implemented via Github Action and Firebase. 
+```
+npm install -g firebase-tools
+```
+```
+firebase init hosting
+```
+Any branch changes automatically trigger tests and deployment. 
+If you need to deploy manually:
+```
+firebase deploy
+```
 
-# About the app
-Application [link](https://todos-manifet.herokuapp.com/)(deployed by heroku). \
-A simple to-do list app built primarily for learning and practicing a few technologies.\
-Here I used such technologies as:
-- [React](https://reactjs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [React Testing Library](https://testing-library.com/)
-- [React Transition Group](https://reactcommunity.org/react-transition-group/)
-- [Redux Toolkit](https://redux-toolkit.js.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-## Interactivity in the application
-- Adding tasks
-- Deleting tasks
-- Completing tasks
-- Editing tasks (сlick on the title of the task)
-- Save all tasks to local storage
-<br/>
-<br/>
-
-### You can ask me a question [here](https://github.com/manifet/todos/issues)
+## You can ask me a question [here](https://github.com/manifet/todos/issues)
