@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Preview
-You can see the finished project [here](https://todos-manifet-a2579.web.app/)
+You can see the finished project [here](https://todos-29f20.web.app/)
 
 ![Screenshot of website](https://user-images.githubusercontent.com/61707913/215187705-d6071193-19e3-4dbf-8d4b-eddf30252a49.png)
 ## Getting Started
